@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4108457041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "search",
+        "description": "",
+        "id": "search;search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 689447051,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search given URL",
+            "match": {
+              "location": "SearchWebsite.i_search_given_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72684410,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should log the details",
+            "match": {
+              "location": "LogDetails.i_should_log_the_details()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/search/sanBernardino.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  }
+]
